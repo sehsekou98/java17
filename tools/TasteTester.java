@@ -1,5 +1,7 @@
 package tools;
 //inheritance
+
+
 public class TasteTester {
 
     public static void main(String[] args) {
