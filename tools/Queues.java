@@ -6,7 +6,7 @@ import java.util.Queue;
 public class Queues {
 
     public static void main(String[] args){
-        Queue fruits = new LinkedList();
+        Queue<String> fruits = new LinkedList<String>();
         fruits.add("apple");
         fruits.add("banana");
         fruits.add("orange");

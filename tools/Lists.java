@@ -6,7 +6,7 @@ import java.util.List;
 public class Lists {
 
     public static void main(String[] args) {
-        List fruits = new ArrayList<String>();
+        List<String> fruits = new ArrayList<>();
         fruits.add("apple");
         fruits.add("lemon");
         fruits.add("plum");

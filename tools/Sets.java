@@ -7,7 +7,7 @@ import java.util.Set;
 public class Sets {
 
     public static void main(String[] args) {
-        Set fruits = new HashSet();
+        Set<String> fruits = new HashSet<>();
         fruits.add("apple");
         fruits.add("banana");
         fruits.add("orange");
@@ -17,7 +17,7 @@ public class Sets {
 
 
         //adding fruits in the list
-        Set moreFruith = Set.of("lemon", "coconut");
-        System.out.println(moreFruith);
+        Set<String> moreFruits = Set.of("lemon", "coconut");
+        System.out.println(moreFruits);
     }
 }
