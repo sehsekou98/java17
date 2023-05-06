@@ -35,18 +35,18 @@ public class noBody {
         System.out.println("Phone:"  + phone.name + " " + "Price: " + phone.price + " " + "Model: " + phone.model);
         System.out.println( "Phone: " + phone1.name + " " + "Price: " + phone1.price + " " + "Model: " + phone1.model);
 
-        Stack myStack = new Stack();
-        Stack myStack1 = new Stack();
+        Stack myStack = new Stack(5);
+        Stack myStack1 = new Stack(8);
 
         // push some numbers in the stack
-        for (int i = 0; i < 10; i++) myStack.push(i);
-        for (int i = 10; i < 20; i++) myStack1.push(i);
+        for (int i = 0; i < 5; i++) myStack.push(i);
+        for (int i = 10; i < 8; i++) myStack1.push(i);
 
         //pop out numbers off the stack
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 5; i++)
             System.out.println(myStack.pop());
 
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 8; i++)
             System.out.println(myStack1.pop());
 
 
