@@ -33,33 +33,33 @@ package inheritance;
  }
 
  //Box-weight is inherited from Box
-     class  BoxWeight extends Boxes {
+     class BoxWeights extends Boxes {
      double weight;
 
-     BoxWeight(BoxWeight ob) {
+     BoxWeights(BoxWeights ob) {
          super(ob);
          weight = ob.weight;
      }
 
-     BoxWeight(double w, double h, double d, double n) {
+     BoxWeights(double w, double h, double d, double n) {
          super(w, h, d);
          weight = n;
      }
 
      //default constructor
-     BoxWeight() {
+     BoxWeights() {
          super();
          weight = -2;
      }
 
-     BoxWeight(double len, double n) {
+     BoxWeights(double len, double n) {
          super(len);
          weight = n;
      }
 
  }
 
- class Shipment extends BoxWeight {
+ class Shipment extends BoxWeights {
      double cost;
 
      Shipment(Shipment ob){
@@ -95,7 +95,7 @@ package inheritance;
              System.out.println("Volume of shipment is: " + vol);
              System.out.println("Cost of shipment is: " + shipment.cost);
              System.out.println("Weight of shipment is: " + shipment1.width);
-             System.out.println("Depth of shipment is: " + shipment1.depth);
+             System.out.println("Weight of shipment is: " + shipment1.depth);
 
 
              System.out.println();
