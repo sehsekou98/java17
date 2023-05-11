@@ -7,7 +7,7 @@ package Multithread;
     NewThread(String threadname) {
         name = threadname;
         t = new Thread(this, name);
-        System.out.println("New thread " + t);
+        System.out.println("New thread: " + t);
     }
 
     public  void run() {
