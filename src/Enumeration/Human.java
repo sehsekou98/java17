@@ -19,7 +19,7 @@ class  EnumDemo{
 
         //Display all ages
         for (Human h : Human.values())
-        System.out.println(h + " : " + h.getAge());
+         System.out.println(h + " : " + h.getAge());
 
 
 
